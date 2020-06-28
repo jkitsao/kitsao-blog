@@ -6,10 +6,12 @@ export default function Layout({ children }, props) {
   const isRoot = pathname === "/";
 
   const header = isRoot ? (
-    <span className="mb-8 py-8  px-8">
+    <span className=" px-8">
       <Link href="/">
-        <a className="text-4xl font-gray-200 text-yellow-600">
-          oyaaaa mjango rada ni gani
+        <a>
+          <p className="text-2xl text-left text-yellow-800 leading-none">
+            Devcrunch is a fun and practical web development guide
+          </p>
         </a>
       </Link>
     </span>
