@@ -1,15 +1,15 @@
 export default {
   siteMetadata: {
-    title: "Next.js Starter Blog",
+    title: "Devcrunch",
     author: {
-      name: "Jose Felix",
-      summary: "who works building clean user interfaces with React.",
+      name: "Jackson kitsao",
+      summary: "a self taught web developer ",
     },
-    description: "A blog created with Next.js and Tailwind.css",
-    siteUrl: "https://nextjs-starter-blog-demo.netlify.app/",
+    description: "A web dev guide blog site",
+    siteUrl: "",
     language: "en-US",
     social: {
-      twitter: "Jose_R_Felix",
+      twitter: "Jacksonkitsao5",
     },
   },
 };
