@@ -12,15 +12,15 @@ export default function Layout({ children }, props) {
       </p>
       <Badges />
     </span>
-  ) : (
-    <h1 className="mb-2">
-      <Link href="/">
-        <a className="text-xl text-green-900 font-hairline no-underline">
-          Home
-        </a>
-      </Link>
-    </h1>
-  );
+  ) : null;
+  //   <h1 className="mb-2">
+  //     <Link href="/">
+  //       <a className="text-xl text-green-900 font-hairline no-underline">
+  //         Home
+  //       </a>
+  //     </Link>
+  //   </h1>
+  // );
   // console.log(props);
   return (
     <div className="max-w-screen-lg px-4  mx-auto">
