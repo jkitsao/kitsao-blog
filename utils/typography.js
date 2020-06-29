@@ -7,7 +7,7 @@ SutroTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   "h1,h2,h3,h4,h5,h6": {
     marginTop: rhythm(1),
     // textDecoration: none,
-    marginBottom: rhythm(1 / 2),
+    marginBottom: rhythm(1),
   },
   h1: {
     fontWeight: 500,
@@ -15,7 +15,7 @@ SutroTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     // textDecoration: none,
   },
 });
-SutroTheme.scaleRatio = 5 / 2;
+SutroTheme.scaleRatio = 2 / 3;
 
 const typography = new Typography(SutroTheme);
 

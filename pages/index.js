@@ -26,7 +26,7 @@ export default function Home({ posts }) {
               <div className="ml-3 px-2 w-full sm:w-1/2">
                 <header>
                   <h3 className="mb-1">
-                    <a className="text-xl lg:text-2xl font-medium text-orange-600 no-underline">
+                    <a className="text-xl lg:text-2xl font-medium text-orange-700 no-underline">
                       {title}
                     </a>
                   </h3>
