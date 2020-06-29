@@ -14,16 +14,16 @@ export default function Home({ posts }) {
         ({ frontmatter: { title, description, date, image }, slug }) => (
           <article
             key={slug + title + date}
-            className="bg-white rounded shadow-2xl cursor-pointer sm:flex my-2 py-3 sm:p-3 "
+            className="bg-white rounded shadow-2xl cursor-pointer sm:flex my-2 p-2 sm:p-3 "
           >
             <Image
               alt={title}
-              src={image}
+              src={`${image}?lqip`}
               // previewSrc={`${image}?lqip`}
               className="w-full sm:w-48 sm:h-48 rounded object-cover "
             />
             <Link href={"/post/[slug]"} as={`/post/${slug}`}>
-              <div className="mx-3 px-2">
+              <div className="ml-3 px-2 w-full sm:w-1/2">
                 <header>
                   <h3 className="mb-1">
                     <a className="text-xl lg:text-2xl font-medium text-orange-600 no-underline">
@@ -33,7 +33,7 @@ export default function Home({ posts }) {
                   <span className="mb-2 text-xs">{date}</span>
                 </header>
                 <section>
-                  <p className="mb-5 text-indigo-400 text-sm">{description}</p>
+                  <p className="mb-4 text-indigo-900 text-sm">{description}</p>
                 </section>
               </div>
             </Link>

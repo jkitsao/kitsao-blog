@@ -1,19 +1,16 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import Badges from "../components/Badges";
 export default function Layout({ children }, props) {
   const { pathname } = useRouter();
   const isRoot = pathname === "/";
 
   const header = isRoot ? (
-    <span className=" px-8">
-      <Link href="/">
-        <a>
-          <p className="text-2xl text-left text-yellow-800 leading-none">
-            Devcrunch is a fun and practical web development guide
-          </p>
-        </a>
-      </Link>
+    <span className=" sm:px-8 pt-2">
+      <p className="text-xl leading-normal sm:text-2xl text-left text-yellow-600 sm:leading-none font-normal text-center">
+        Fun, practical and engaging web development blogs and stories
+      </p>
+      <Badges />
     </span>
   ) : (
     <h1 className="mb-2">
@@ -27,7 +24,9 @@ export default function Layout({ children }, props) {
   // console.log(props);
   return (
     <div className="max-w-screen-lg px-4  mx-auto">
-      <header>{header}</header>
+      <header className="mb-0 bg-gray-200 px-5 shadow-lg rounded-lg mt-3">
+        {header}
+      </header>
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built by{" "}

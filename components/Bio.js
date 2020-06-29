@@ -5,7 +5,7 @@ export default function Bio() {
   const { author, social } = getSiteMetaData();
 
   return (
-    <div className="flex items-center my-12">
+    <div className="flex flex-wrap sm:flex-no-wrap items-center mt-6">
       <Image
         className="flex-shrink-0 w-12 h-12 mb-0 mr-3 rounded-full align-top"
         src={require("../content/assets/profile.png")}
@@ -13,7 +13,7 @@ export default function Bio() {
         alt="Profile"
       />
       <div>
-        <p className="mb-0 text-lg">
+        <p className="mb-0 text-sm sm:text-lg">
           Hello there and welcome to Devcrunch a Blog by <b>{author.name}</b>{" "}
           {author.summary}{" "}
           <a href={`https://twitter.com/${social.twitter}`}>

@@ -30,7 +30,7 @@ export default function Post({ post, frontmatter }) {
 
       <article>
         <header className="my-5">
-          <h1 className="my-3 text-3xl sm:text-4xl lg:text-5xl">
+          <h1 className="my-3 text-3xl sm:text-4xl text-gray-900 font-bold lg:text-5xl leading-tight">
             {frontmatter.title}
           </h1>
           <p className="text-lg text-green-800">{frontmatter.date}</p>
@@ -40,7 +40,7 @@ export default function Post({ post, frontmatter }) {
             alt={frontmatter.title}
             src={frontmatter.image}
             // previewSrc={require(`../../content/assets/${src}?lqip`)}
-            className="w-full h-3/4 rounded"
+            className="w-full h-3/4 rounded lg:ml-12"
           />
         </div>
 
