@@ -8,7 +8,7 @@ export default function Navbar() {
         <Link href="/">
           <div>
             <Logo className="" />
-            <h2 className="text-orange-500 text-lg sm:text-4xl inline-block">
+            <h2 className="text-orange-500 text-xl sm:text-4xl inline-block">
               Devcrunch.io
             </h2>
           </div>
