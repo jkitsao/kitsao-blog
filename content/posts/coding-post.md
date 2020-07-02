@@ -1,7 +1,8 @@
 ---
 title: what is Javascript
-description: Brief explanation of javascript
-date: 2020-06-19T11:00:00.000Z
+description: One of the things we believe as a team is that everything we make should
+date: 2020-06-30T11:00:00.000Z
+author: Jackson kitsao
 image: https://bit.ly/2BkTikN
 ---
 JavaScript is a scripting language for the web. It is an interpreted language, which means it does not need a compiler to translate its code like C or C++. JavaScript code runs directly in a web browser.

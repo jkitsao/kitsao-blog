@@ -27,10 +27,10 @@ export default function Layout({ children }, props) {
   ) : null;
   return (
     <div className="max-w-screen-lg px-4  mx-auto">
-      {banner}
-      <header className="mb-0 bg-grey-900 px-3 shadow-lg lg:py-4">
+      <header className="mb-0 bg-grey-900 px-3 shadow-lg lg:py-4 mt-3">
         {header}
       </header>
+      {banner}
       <main className="my-2 ">{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built by{" "}

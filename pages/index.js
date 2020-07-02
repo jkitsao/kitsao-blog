@@ -11,7 +11,10 @@ export default function Home({ posts }) {
       <SEO title="All posts" />
       <Bio />
       {posts.map(
-        ({ frontmatter: { title, description, date, image }, slug }) => (
+        ({
+          frontmatter: { title, description, date, image, author },
+          slug,
+        }) => (
           <article
             key={slug + title + date}
             className="bg-white rounded shadow-2xl cursor-pointer sm:flex my-2 p-2 sm:p-3 "
@@ -30,7 +33,14 @@ export default function Home({ posts }) {
                       {title}
                     </a>
                   </h3>
-                  <span className="mb-2 text-xs">{date}</span>
+                  <span className="mb-2 text-xs inline-block font-bold">
+                    {date}
+                  </span>
+                  {author ? (
+                    <span className="mb-2 text-xs font-bold mx-2 text-green-700">
+                      {author}
+                    </span>
+                  ) : null}
                 </header>
                 <section>
                   <p className="mb-4 text-indigo-900 text-sm">{description}</p>
