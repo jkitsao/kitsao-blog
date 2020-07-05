@@ -1,4 +1,4 @@
-// import Link from "next/link";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import Badges from "../components/Badges";
 import Outerlinks from "./Outerlinks";
@@ -7,15 +7,22 @@ export default function Layout({ children }, props) {
   const isRoot = pathname === "/";
 
   const header = isRoot ? (
-    <span className=" sm:px-8 py-2 pt-2">
+    <span className=" sm:px-8 py-2">
       <Badges />
     </span>
   ) : (
-    <h1 className="mb-2 py-3 lg:py-2">
-      <span className="text-xl font-hairline">
-        <Outerlinks />
+    <>
+      <h1 className="mb-2 py-2 lg:py-2">
+        <span className="text-xl font-hairline">
+          <Outerlinks />
+        </span>
+      </h1>
+      <span className="inline-block mx-3 my-1">
+        <Link href="/">
+          <a className="text-xs font-bold text-dark">Back</a>
+        </Link>
       </span>
-    </h1>
+    </>
   );
   // console.log(props);
   const banner = isRoot ? (

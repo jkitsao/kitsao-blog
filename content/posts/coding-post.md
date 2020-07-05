@@ -13,7 +13,7 @@ JavaScript works with HTML and CSS to build web apps or web pages. JavaScript is
 
 JavaScript controls the dynamic elements of web pages. It works in web browsers and, more recently, on web servers as well. Application Programming Interfaces (API) are also supported by JavaScript, giving you more functionality.
  ---
-### below is some javascript code
+#### below is some javascript code
 
 ```js
 var firstName="John";

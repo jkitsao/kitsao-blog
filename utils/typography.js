@@ -1,7 +1,7 @@
 import Typography from "typography";
 import SutroTheme from "typography-theme-sutro";
 
-delete SutroTheme.googleFonts;
+// delete SutroTheme.googleFonts;
 
 SutroTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   "h1,h2,h3,h4,h5,h6": {
@@ -10,12 +10,12 @@ SutroTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     marginBottom: rhythm(1),
   },
   h1: {
-    fontWeight: 500,
+    fontWeight: 300,
     letterSpacing: "-1px",
     // textDecoration: none,
   },
 });
-SutroTheme.scaleRatio = 2 / 3;
+SutroTheme.scaleRatio = 1 / 2;
 
 const typography = new Typography(SutroTheme);
 

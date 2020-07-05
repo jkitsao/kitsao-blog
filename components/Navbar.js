@@ -6,12 +6,12 @@ export default function Navbar() {
     <nav className=" bg-black flex sticky top-0 z-10 justify-center">
       <span className="cursor-pointer">
         <Link href="/">
-          <div>
-            <Logo className="" />
-            <h2 className="text-orange-500 text-xl sm:text-4xl inline-block">
+          <>
+            {/* <Logo className=" bg-green-400" /> */}
+            <h2 className="text-orange-500 text-xl sm:text-3xl inline-block my-5">
               Devcrunch.io
             </h2>
-          </div>
+          </>
         </Link>
       </span>
     </nav>
