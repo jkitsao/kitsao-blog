@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { useRouter } from "next/router";
 import Badges from "../components/Badges";
 import Outerlinks from "./Outerlinks";
@@ -17,11 +17,6 @@ export default function Layout({ children }, props) {
           <Outerlinks />
         </span>
       </h1>
-      <span className="inline-block mx-3 my-1">
-        <Link href="/">
-          <a className="text-xs font-bold text-dark">Back</a>
-        </Link>
-      </span>
     </>
   );
   // console.log(props);

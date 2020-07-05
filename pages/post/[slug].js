@@ -52,7 +52,7 @@ export default function Post({ post, frontmatter }) {
             alt={frontmatter.title}
             src={frontmatter.image}
             // previewSrc={require(`${frontmatter.image}?lqip`)}
-            className="w-full h-3/4 rounded lg:ml-12"
+            className="w-full h-3/4 rounded lg:ml-12 shadow-lg"
           />
         </div>
 

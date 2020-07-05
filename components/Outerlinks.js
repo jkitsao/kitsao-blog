@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { fa } from "@fortawesome/free-solid-svg-icons";
 // import { fab } from "@fortawesome/free-brands-svg-icons";
-// import Link from "next/link";
+import Link from "next/link";
 import {
   faTwitter,
   faFacebook,
@@ -13,7 +13,13 @@ import {
 export default function Outerlinks() {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-1">
+        <span className="inline-block mx-3">
+          <Link href="/">
+            <a className="font-medium text-sm sm:text-lg">{"<<"} Back</a>
+          </Link>
+        </span>
+
         <a
           href="https://twitter.com/jacksonkitsao5"
           className="cursor-pointer mx-2 text-black font-medium text-sm sm:text-lg"
