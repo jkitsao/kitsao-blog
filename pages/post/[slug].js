@@ -17,9 +17,9 @@ const CodeBlock = ({ language, value }) => {
 const MarkdownImage = ({ alt, src }) => (
   <Image
     alt={alt}
-    src={require(`../../content/assets/${src}`)}
+    src={`${src}`}
     // previewSrc={require(`../../content/assets/${src}?lqip`)}
-    className="w-full"
+    className="w-full h-64 lg:h-84 object-cover my-2 block  shadow-lg"
   />
 );
 
@@ -47,12 +47,12 @@ export default function Post({ post, frontmatter }) {
             </span>
           ) : null}
         </header>
-        <div className=" w-full sm:w-3/4">
+        <div className=" w-full sm:w-full">
           <Image
             alt={frontmatter.title}
             src={frontmatter.image}
             // previewSrc={require(`${frontmatter.image}?lqip`)}
-            className="w-full h-3/4 rounded lg:ml-12 shadow-lg"
+            className="w-full h-64 object-contain object-cover sm:h-84 sm:object-top rounded"
           />
         </div>
 

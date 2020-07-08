@@ -1,6 +1,6 @@
 ---
 title: what is Javascript
-description: One of the things we believe as a team is that everything we make should
+description: JavaScript is a scripting language for the web. It is an interpreted language
 date: 2020-06-30T11:00:00.000Z
 author: Jackson kitsao
 image: https://bit.ly/2BkTikN

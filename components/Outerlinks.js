@@ -16,7 +16,7 @@ export default function Outerlinks() {
       <div className="flex justify-center py-1">
         <span className="inline-block mx-3">
           <Link href="/">
-            <a className="font-medium text-sm sm:text-lg">{"<<"} Back</a>
+            <a className="font-medium text-sm sm:text-lg">{"<<"}</a>
           </Link>
         </span>
 

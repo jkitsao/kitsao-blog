@@ -3,7 +3,7 @@ export default {
     title: "Devcrunch",
     author: {
       name: "Jackson kitsao",
-      summary: "a self taught web developer ",
+      summary: "a self taught web developer from Nairobi, Kenya ",
     },
     description: "A web dev guide blog site",
     siteUrl: "",
