@@ -28,7 +28,7 @@ export default function Layout({ children }, props) {
     </div>
   ) : null;
   return (
-    <div className="max-w-screen-lg px-4  mx-auto">
+    <div className="max-w-screen-lg px-2 mx-auto">
       <header className="mb-0 bg-grey-900 px-3 shadow-lg lg:py-4 mt-3">
         {header}
       </header>
