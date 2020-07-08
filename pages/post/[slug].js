@@ -33,7 +33,7 @@ export default function Post({ post, frontmatter }) {
       />
 
       <article>
-        <header className="my-5">
+        <header className="mt-4">
           <h1 className="my-3 ml-1 text-2xl sm:text-4xl text-gray-900 font-bold lg:text-5xl leading-tight font-extrabold">
             {frontmatter.title}
           </h1>

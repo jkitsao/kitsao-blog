@@ -23,7 +23,7 @@ export default function Layout({ children }, props) {
   const banner = isRoot ? (
     <div className="py-4">
       <h2 className="text-xl leading-relaxed sm:text-4xl text-left sm:leading-none text-center text-indigo-900">
-        Fun, practical and engaging web development blogs and stories
+        Fun, practical and engaging web development blogs and stories &#128293;
       </h2>
     </div>
   ) : null;
@@ -34,7 +34,7 @@ export default function Layout({ children }, props) {
       </header>
       {banner}
       <main className="my-2 ">{children}</main>
-      <footer>
+      <footer className="text-xs">
         © {new Date().getFullYear()}, Built by{" "}
         <a target="_blank" href="https://github.com/jkitsao">
           Jackson kitsao
