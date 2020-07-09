@@ -15,6 +15,10 @@ import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faBars, faUser, faTwitter, faFacebook);
 //exporting the _app component
+<link
+  href="https://fonts.googleapis.com/css2?family=Notable&display=swap"
+  rel="stylesheet"
+/>;
 export default function MyApp({ Component, pageProps }) {
   //binding the nproress bar to the app
   Router.events.on("routeChangeStart", () => NProgress.start());
