@@ -12,7 +12,7 @@ export default function Layout({ children }, props) {
     </span>
   ) : (
     <>
-      <h1 className="mb-2 py-2 lg:py-2">
+      <h1 className="mb-2 py-2">
         <span className="text-xl font-hairline">
           <Outerlinks />
         </span>
@@ -23,7 +23,7 @@ export default function Layout({ children }, props) {
   const banner = isRoot ? (
     <div className="py-4">
       <h2 className="text-xl leading-relaxed sm:text-4xl text-left sm:leading-none text-center text-indigo-900">
-        Fun, practical and engaging web development blogs and stories &#128293;
+        Lets take the Web development journey together &#128293;
       </h2>
     </div>
   ) : null;

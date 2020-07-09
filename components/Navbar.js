@@ -1,18 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import Logo from "./Logo";
+// import Logo from "./Logo";
 export default function Navbar() {
   return (
-    <nav className=" bg-black flex sticky top-0 z-10 justify-center">
+    <nav className=" bg-black flex sticky top-0 z-10 justify-center py-4 ">
       <span className="cursor-pointer">
-        <Link href="/">
-          <>
-            {/* <Logo className=" bg-green-400" /> */}
-            <h2 className="text-orange-500 text-xl sm:text-3xl inline-block my-5">
-              Devcrunch.io
-            </h2>
-          </>
-        </Link>
+        <img src="/image.svg" className="h-8 sm:h-10 inline-block m-0" />
+      </span>
+      <span className="text-white text-xl sm:text-2xl font-bold text-orange-500">
+        Devcrib:developers home
       </span>
     </nav>
   );

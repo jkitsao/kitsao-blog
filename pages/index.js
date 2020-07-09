@@ -17,13 +17,13 @@ export default function Home({ posts }) {
         }) => (
           <article
             key={slug + title + date}
-            className="bg-white rounded shadow-2xl cursor-pointer sm:flex my-2 p-1 sm:p-2  "
+            className="bg-white rounded shadow-2xl cursor-pointer sm:flex my-2 p-1 sm:p-2 "
           >
             <Image
               alt={title}
               src={`${image}?lqip`}
               // previewSrc={`${image}?lqip`}
-              className="w-full h-56 sm:w-56 sm:h-56 rounded object-cover "
+              className="w-full h-56 sm:w-56 sm:h-56 rounded-lg object-cover "
             />
             <Link href={"/post/[slug]"} as={`/post/${slug}`}>
               <div className="ml-3 px-2 w-full sm:w-1/2 sm:pt-10">

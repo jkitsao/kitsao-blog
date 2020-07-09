@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
       <Html lang={siteMetadata.language}>
         <Head>
           <TypographyStyle typography={typography} />
+          <link rel="shortcut icon" href="/image.svg" />
         </Head>
         <body>
           <Main />

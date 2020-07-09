@@ -3,36 +3,46 @@ import React from "react";
 export default function Logo() {
   return (
     <svg
+      width="154"
+      height="137"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
-      className="w-5 lg:w-10 mx-1"
     >
       <path
-        fill="#9abadb"
-        d="M332.663 473.644v-60.048l-96.679-20.016L256 473.644z"
+        d="M87 0l86.603 135.75H.397L87 0z"
+        fill="url(#paint0_linear)"
+        fill-opacity=".56"
       />
-      <g fill="#d1e8ff">
-        <path d="M179.337 473.644H256V393.58l-76.663 20.016z" />
-        <path d="M512 323.524l-276.016-20.016L256 413.596h256z" />
-      </g>
-      <path fill="#f5f5ff" d="M0 323.524v90.072h256V303.508z" />
-      <path
-        fill="#d1e8ff"
-        d="M377.699 458.644H256l-10.008 15 10.008 15h121.699z"
-      />
-      <path fill="#f5f5ff" d="M134.3 458.64H256v30H134.3z" />
-      <path
-        fill="#294b6e"
-        d="M512 23.356H256L235.984 173.44 256 323.524h256z"
-      />
-      <path fill="#6283a3" d="M0 23.356h256v300.17H0z" />
-      <path
-        fill="#f5f5ff"
-        d="M178.828 252.914L99.354 173.44l79.474-79.474 21.213 21.213-58.261 58.261 58.261 58.261z"
-      />
-      <g fill="#d1e8ff">
-        <path d="M333.172 252.914l-21.213-21.213 58.261-58.261-58.261-58.261 21.213-21.213 79.474 79.474zM252.212 269.36l-29.424-5.852 36.995-185.983 29.424 5.853z" />
-      </g>
+      <ellipse cx="88" cy="82.5" rx="62" ry="54.5" fill="url(#paint1_linear)" />
+      <defs>
+        <linearGradient
+          id="paint0_linear"
+          x1="34"
+          y1="29"
+          x2="87"
+          y2="181"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset=".057" stop-color="#D44258" />
+          <stop offset=".103" stop-color="#2AA65C" />
+          <stop offset=".479" stop-color="#FF3D00" />
+          <stop offset=".521" stop-color="#6F3C42" />
+          <stop offset=".957" stop-color="#DCE022" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear"
+          x1="88"
+          y1="28"
+          x2="88"
+          y2="137"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#1E0F0F" />
+          <stop offset=".063" stop-color="#251616" stop-opacity=".938" />
+          <stop offset=".76" stop-color="#29AC36" stop-opacity=".22" />
+          <stop offset="1" stop-color="#8F7272" stop-opacity="0" />
+        </linearGradient>
+      </defs>
     </svg>
   );
 }

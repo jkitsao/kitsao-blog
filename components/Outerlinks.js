@@ -13,10 +13,12 @@ import {
 export default function Outerlinks() {
   return (
     <div>
-      <div className="flex justify-center py-1">
-        <span className="inline-block mx-3">
+      <div className="flex justify-center ">
+        <span className="inline-block mr-5">
           <Link href="/">
-            <a className="font-medium text-sm sm:text-lg">{"<<"}</a>
+            <a className="font-medium text-sm sm:text-lg">
+              <img src="/home.png" className="mb-0 h-4 lg:h-5" />
+            </a>
           </Link>
         </span>
 

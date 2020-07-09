@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown/with-html";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-// import { darcula } from "react-syntax-highlighter/dist/esm/styles/prism";
-// import { dark } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { duotoneDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
+// import {  } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import Layout from "components/Layout";
 import Image from "components/Image";
 import SEO from "components/Seo";
@@ -11,7 +11,15 @@ import { getPostBySlug, getPostsSlugs } from "utils/posts";
 
 const CodeBlock = ({ language, value }) => {
   // console.log(language, value);
-  return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
+  return (
+    <SyntaxHighlighter
+      language={language}
+      style={duotoneDark}
+      className="rounded"
+    >
+      {value}
+    </SyntaxHighlighter>
+  );
 };
 
 const MarkdownImage = ({ alt, src }) => (
@@ -19,7 +27,7 @@ const MarkdownImage = ({ alt, src }) => (
     alt={alt}
     src={`${src}`}
     // previewSrc={require(`../../content/assets/${src}?lqip`)}
-    className="w-full h-48 lg:h-84 object-cover my-2 block  shadow-lg"
+    className="w-full h-48 lg:h-84 object-cover my-2 block shadow-lg"
   />
 );
 
