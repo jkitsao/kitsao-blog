@@ -1,14 +1,19 @@
 // import Link from "next/link";
+import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Badges from "../components/Badges";
 import Outerlinks from "./Outerlinks";
+// import Lettertoggle from "components/newsletter/Lettertoggler";
+import Lettertoggler from "components/newsletter/Lettertoggler";
+import Letterform from "./newsletter/Newsletter";
 export default function Layout({ children }, props) {
   const { pathname } = useRouter();
   const isRoot = pathname === "/";
-
+  const [letterIsOpen, setLetterIsOpen] = useState(false);
   const header = isRoot ? (
-    <span className=" sm:px-8 py-2">
+    <span className=" sm:px-5 py-2">
       <Badges />
+      <Lettertoggler />
     </span>
   ) : (
     <>
@@ -20,26 +25,24 @@ export default function Layout({ children }, props) {
     </>
   );
   // console.log(props);
-  const banner = isRoot ? (
-    <div className="py-4">
-      <h2 className="text-xl leading-relaxed sm:text-4xl text-left sm:leading-none text-center text-indigo-900">
-        Lets take the Web development journey together &#128293;
-      </h2>
-    </div>
-  ) : null;
+
+  // const banner = isRoot ? <Lettertoggler /> : null;
   return (
     <div className="max-w-screen-lg px-2 mx-auto">
+      {/* {banner} */}
       <header className="mb-0 bg-grey-900 px-3 shadow-lg lg:py-4 mt-3">
         {header}
       </header>
-      {banner}
+
       <main className="my-2 ">{children}</main>
-      <footer className="text-xs">
-        © {new Date().getFullYear()}, Built by{" "}
-        <a target="_blank" href="https://github.com/jkitsao">
-          Jackson kitsao
-        </a>{" "}
-        &#128293;
+      <footer className="text-xs flex w-full justify-center align-middle">
+        <div>
+          © {new Date().getFullYear()}, Built by{" "}
+          <a target="_blank" href="https://github.com/jkitsao">
+            Jackson kitsao
+          </a>{" "}
+          &#128293;
+        </div>
       </footer>
     </div>
   );

@@ -17,7 +17,8 @@ export default function Home({ posts }) {
         }) => (
           <article
             key={slug + title + date}
-            className="bg-white rounded shadow-2xl cursor-pointer sm:flex my-2 p-1 sm:p-2 "
+            className="bg-white shadow-lg cursor-pointer sm:flex my-2 p-1 pb-3 sm:pb-2 sm:p-2 mb-3 hover:shadow-2xl "
+            style={{ borderBottom: "1px solid green" }}
           >
             <Image
               alt={title}
@@ -26,7 +27,7 @@ export default function Home({ posts }) {
               className="w-full h-56 sm:w-56 sm:h-56 rounded-lg object-cover "
             />
             <Link href={"/post/[slug]"} as={`/post/${slug}`}>
-              <div className="ml-3 px-2 w-full sm:w-1/2 sm:pt-10">
+              <div className="ml-3 px-2 w-full sm:w-1/2 sm:pt-2">
                 <header>
                   <h3 className="mb-1 mt-0">
                     <a className="text-xl lg:text-2xl font-medium text-orange-700 no-underline">
@@ -45,6 +46,9 @@ export default function Home({ posts }) {
                 <section>
                   <p className="mb-4 text-indigo-900 text-sm">{description}</p>
                 </section>
+                <button className="bg-green-700 cursor-pointer hover:bg-green-500 sm:block text-white px-2 border-none outline-none shadow-lg text-sm">
+                  read more
+                </button>
               </div>
             </Link>
           </article>

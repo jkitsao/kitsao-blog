@@ -1,6 +1,6 @@
 ---
 title: What does a frontend developer do
-description: The first post is the most memorable one.
+description: Today we are going to dive into the role of a frontend web developer The frontend developer implements the website’s layout, interactive and navigational
 date: 2020-06-16T11:00:00.000Z
 image: https://bit.ly/302zE5J
 ---

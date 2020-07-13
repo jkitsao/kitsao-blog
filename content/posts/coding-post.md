@@ -1,6 +1,6 @@
 ---
 title: what is Javascript
-description: JavaScript is a scripting language for the web. It is an interpreted language
+description: JavaScript is a scripting language for the web. It is an interpreted language avaScript is a scripting language for the web. It is an interpreted language, which means it does not need a compiler to translate its code
 date: 2020-06-30T11:00:00.000Z
 author: Jackson kitsao
 image: https://bit.ly/2BkTikN
