@@ -42,7 +42,7 @@ const Letterform = ({
   };
   return (
     <div
-      className=" bg-gray-900 lg:pt-12 py-12 sm:pb-32  lg:px-48 z-50 shadow-2xl  fixed"
+      className=" bg-gray-900 lg:pt-12 py-12 sm:pb-32  lg:px-48 z-50 shadow-2xl fixed"
       style={{
         background:
           "linear-gradient(90deg, rgba(36,2,43,1) 0%, rgba(24,1,16,1) 50%, rgba(46,8,3,1) 100%)",
@@ -55,7 +55,7 @@ const Letterform = ({
         >
           cancel
         </span>
-        <h3 className="text-lg text-white font-bold mt-12 text-xl">
+        <h3 className="text-lg text-white font-bold mt-12 font-normal text-xl">
           subscribe to my NewsLetter
         </h3>
 

@@ -6,6 +6,7 @@ import { getSiteMetaData } from "utils/helpers";
 
 export default class MyDocument extends Document {
   render() {
+    // console.log(typography);
     const siteMetadata = getSiteMetaData();
 
     return (

@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: ["@tailwindcss/typography"],
   corePlugins: {
     preflight: false,
   },

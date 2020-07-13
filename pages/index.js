@@ -17,17 +17,17 @@ export default function Home({ posts }) {
         }) => (
           <article
             key={slug + title + date}
-            className="bg-white shadow-lg cursor-pointer sm:flex my-2 p-1 pb-3 sm:pb-2 sm:p-2 mb-3 hover:shadow-2xl "
-            style={{ borderBottom: "1px solid green" }}
+            className="bg-white shadow-lg cursor-pointer sm:flex my-2 p-1 pb-3 sm:pb-2 sm:p-2 mb-3 hover:shadow-2xl"
+            style={{ borderBottom: "2px solid green" }}
           >
             <Image
               alt={title}
               src={`${image}?lqip`}
               // previewSrc={`${image}?lqip`}
-              className="w-full h-56 sm:w-56 sm:h-56 rounded-lg object-cover "
+              className="w-full h-48 sm:w-56 sm:h-56  object-cover "
             />
             <Link href={"/post/[slug]"} as={`/post/${slug}`}>
-              <div className="ml-3 px-2 w-full sm:w-1/2 sm:pt-2">
+              <div className="ml-3 px-2 sm:px-10  w-full sm:w-3/4 sm:pt-2">
                 <header>
                   <h3 className="mb-1 mt-0">
                     <a className="text-xl lg:text-2xl font-medium text-orange-700 no-underline">
