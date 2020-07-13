@@ -45,12 +45,12 @@ export default function Post({ post, frontmatter }) {
           <h1 className="my-3 ml-1 text-2xl sm:text-4xl text-gray-900  lg:text-5xl leading-tight font-medium">
             {frontmatter.title}
           </h1>
-          <p className="text-lg text-green-800 inline-block">
+          <p className="text-sm lg:text-lg text-green-800 inline-block">
             {frontmatter.date}
           </p>
           {/* if author is present show else dont show  */}
           {frontmatter.author ? (
-            <span className="text-lg text-red-800 font-bold mx-2">
+            <span className="text-sm lg:text-lg text-red-800 font-bold mx-2">
               by {frontmatter.author}
             </span>
           ) : null}

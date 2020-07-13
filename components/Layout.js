@@ -17,7 +17,7 @@ export default function Layout({ children }, props) {
     </span>
   ) : (
     <>
-      <h1 className="mb-2 py-2">
+      <h1 className="mb-2 py-2 mt-1">
         <span className="text-xl font-hairline">
           <Outerlinks />
         </span>
