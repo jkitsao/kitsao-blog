@@ -19,7 +19,7 @@ const Letterform = ({
     setName(setdata.name);
   }, []);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     if (email && name) {
       setBtnActive(false);
       e.preventDefault();
