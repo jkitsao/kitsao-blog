@@ -24,11 +24,11 @@ function Lettertoggler() {
   return (
     <div className="inline-block">
       {!letterIsOpen ? (
-        <span
+        <button
           className={`px-4 py-2 ${
             !isSubscribed
-              ? "text-indigo-700 font-bold bg-white rounded"
-              : "text-green-600 font-bold"
+              ? "text-indigo-700 font-bold bg-white outline-none rounded"
+              : "text-green-600 font-bold display-none"
           } border-none text-white cursor-pointer`}
           onClick={handleClick}
           disabled={isSubscribed ? true : false}
@@ -55,7 +55,7 @@ function Lettertoggler() {
           ) : (
             "Subscribed "
           )}
-        </span>
+        </button>
       ) : (
         <Letterform
           handleClick={handleClick}
