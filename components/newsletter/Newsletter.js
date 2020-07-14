@@ -51,12 +51,22 @@ const Letterform = ({
       <div className=" px-2 sm:ml-16">
         <span
           onClick={handleClick}
-          className="text-white cursor-pointer bg-red-700 sm:py-1 px-1 active:bg-green-800 sm:font-bold absolute right-0 top-0 "
+          // className="b cursor-pointer  sm:py-1 px-1 absolute right-0 top-0 "
         >
-          cancel
+          <span className="absolute right-0 top-0 -mr-2 -mt-2 border cursor-pointer shadow-lg  z-10 p-1 rounded-full p-2">
+            <svg
+              className="fill-current h-6 w-6 text-red-500"
+              role="button"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <title>Close</title>
+              <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z" />
+            </svg>
+          </span>
         </span>
         <h3 className="text-sm text-white font-bold mt-12 font-normal text-xl">
-          subscribe to my NewsLetter
+          subscribe to my Newsletter
         </h3>
 
         <div className="justify-center items-center flex mt-3">

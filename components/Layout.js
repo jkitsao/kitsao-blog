@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import Badges from "../components/Badges";
-import Outerlinks from "./Outerlinks";
-// import Lettertoggle from "components/newsletter/Lettertoggler";
-import Lettertoggler from "components/newsletter/Lettertoggler";
-import Letterform from "./newsletter/Newsletter";
+// import Outerlinks from "./Outerlinks";
+import Bio from "components/Bio";
+
 export default function Layout({ children }, props) {
   const { pathname } = useRouter();
   const isRoot = pathname === "/";
@@ -13,7 +12,7 @@ export default function Layout({ children }, props) {
   const header = isRoot ? (
     <span className=" sm:px-5 py-2">
       <Badges />
-      <Lettertoggler />
+      <Bio />
     </span>
   ) : null; //(
   //   <>
@@ -30,9 +29,7 @@ export default function Layout({ children }, props) {
   return (
     <div className="max-w-screen-lg px-2 mx-auto">
       {/* {banner} */}
-      <header className="mb-0 bg-grey-900 px-3 shadow-lg lg:py-4 mt-3">
-        {header}
-      </header>
+      <header className="mb-0 bg-grey-900 px-3 lg:py-4 mt-3">{header}</header>
 
       <main className="my-2 ">{children}</main>
       <footer className="text-xs flex w-full justify-center align-middle">

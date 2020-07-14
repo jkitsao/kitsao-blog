@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "components/Image";
 import Layout from "components/Layout";
-import Bio from "components/Bio";
+// import Bio from "components/Bio";
 import SEO from "components/Seo";
 import { getSortedPosts } from "utils/posts";
 
@@ -9,7 +9,7 @@ export default function Home({ posts }) {
   return (
     <Layout>
       <SEO title="All posts" />
-      <Bio />
+
       {posts.map(
         ({
           frontmatter: { title, description, date, image, author },
