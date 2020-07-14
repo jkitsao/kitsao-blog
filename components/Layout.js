@@ -15,15 +15,15 @@ export default function Layout({ children }, props) {
       <Badges />
       <Lettertoggler />
     </span>
-  ) : (
-    <>
-      <h1 className="mb-2 py-2 mt-1">
-        <span className="text-xl font-hairline">
-          <Outerlinks />
-        </span>
-      </h1>
-    </>
-  );
+  ) : null; //(
+  //   <>
+  //     <h1 className="mb-2 py-2 mt-1">
+  //       <span className="text-xl font-hairline">
+  //         <Outerlinks />
+  //       </span>
+  //     </h1>
+  //   </>
+  // );
   // console.log(props);
 
   // const banner = isRoot ? <Lettertoggler /> : null;
