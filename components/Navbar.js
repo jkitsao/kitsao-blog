@@ -4,15 +4,14 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className=" bg-black flex sticky top-0 z-10 justify-center py-3 lg:py-4 ">
-      <span className="cursor-pointer">
+      {/* <span className="cursor-pointer">
         <img src="/image.svg" className="h-8 sm:h-10 inline-block m-0" />
-      </span>
+      </span> */}
       <span
-        className="text-white text-xl sm:text-2xl font-bold text-orange-700 font-extrabold"
-        style={{ fontFamily: "Notable sans-serif" }}
+        className="logo-text text-white text-xl sm:text-3xl text-indigo-500 font-hairline"
+        // style={{ fontFamily: "Galada', cursive" }}
       >
-        Devcrib /<span className="text-white">Learn</span>/\/
-        <span className="text-yellow-300">Create</span>
+        mydevpal.com
       </span>
     </nav>
   );

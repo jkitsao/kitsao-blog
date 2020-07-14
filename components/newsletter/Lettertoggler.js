@@ -27,9 +27,7 @@ function Lettertoggler() {
         {!letterIsOpen ? (
           <button
             className={`px-4 py-2 ${
-              !isSubscribed
-                ? "bg-indigo-600 shadow-xl rounded"
-                : "bg-green-600 cursor-not-allowed"
+              !isSubscribed ? "bg-indigo-600 shadow-xl rounded" : "bg-green-600"
             } border-none text-white cursor-pointer`}
             onClick={handleClick}
             disabled={isSubscribed ? true : false}

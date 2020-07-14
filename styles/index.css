@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 html{
     font-family: 'Raleway', sans-serif;
 }
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
+}
+.logo-text{
+    font-family: 'Galada', cursive;
 }

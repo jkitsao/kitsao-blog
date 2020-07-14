@@ -1,6 +1,6 @@
 export default {
   siteMetadata: {
-    title: "Devcrunch",
+    title: "mydevpal",
     author: {
       name: "Jackson kitsao",
       summary: "a self taught web developer from Nairobi, Kenya ",
