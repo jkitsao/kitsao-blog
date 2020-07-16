@@ -26,9 +26,9 @@ export default function MyApp({ Component, pageProps }) {
   Router.events.on("routeChangeComplete", () => NProgress.done());
   Router.events.on("routeChangeError", () => NProgress.done());
   return (
-    <>
+    <div className="">
       <Navbar />
       <Component {...pageProps} />;
-    </>
+    </div>
   );
 }

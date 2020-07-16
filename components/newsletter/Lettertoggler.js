@@ -5,7 +5,7 @@ function Lettertoggler() {
   const [btnmsg, setBtnMsg] = useState("Recieve updates via Email");
   const [letterIsOpen, setLetterIsOpen] = useState(false);
   const [btnActive, setBtnActive] = useState(true);
-  const [nop, setNop] = useState(false);
+  // const [nop, setNop] = useState(false);
   //   console.log(letterIsOpen);
   const handleClick = (e) => {
     e.preventDefault();
@@ -27,8 +27,13 @@ function Lettertoggler() {
         <button
           className={`px-4 py-2 ${
             !isSubscribed
+<<<<<<< HEAD
               ? "text-indigo-700 font-bold bg-white outline-none rounded"
               : "text-green-600 font-bold display-none"
+=======
+              ? "text-indigo-700 font-bold bg-white rounded outline-none"
+              : "text-green-600 font-bold"
+>>>>>>> d05d3d3b06eb502fb92c631433ac744482334dbc
           } border-none text-white cursor-pointer`}
           onClick={handleClick}
           disabled={isSubscribed ? true : false}
