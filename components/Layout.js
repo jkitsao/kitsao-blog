@@ -11,7 +11,7 @@ export default function Layout({ children }, props) {
   const [letterIsOpen, setLetterIsOpen] = useState(false);
   const header = isRoot ? (
     <span className=" sm:px-5 py-2">
-      <Badges />
+      {/* <Badges /> */}
       <Bio />
     </span>
   ) : null; //(
@@ -29,7 +29,7 @@ export default function Layout({ children }, props) {
   return (
     <div className="max-w-screen-lg px-2 mx-auto">
       {/* {banner} */}
-      <header className="mb-0 bg-grey-900 px-3 lg:py-4 mt-3">{header}</header>
+      <header className="bg-grey-900 px-3 p-0 "> {header}</header>
 
       <main className="my-2 ">{children}</main>
       <footer className="text-xs flex w-full justify-center align-middle">
