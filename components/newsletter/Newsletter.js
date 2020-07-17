@@ -5,19 +5,10 @@ const Letterform = ({
   letterIsOpen,
   setLetterIsOpen,
   setBtnActive,
+  isSubscribed,
 }) => {
   const [email, setEmail] = React.useState("");
   const [name, setName] = React.useState("");
-  const userdata = { name, email };
-  useEffect(() => {
-    const data = localStorage.getItem("userData");
-    if (!data) {
-      localStorage.setItem("userData", JSON.stringify(userdata));
-    }
-    const setdata = JSON.parse(data);
-    setEmail(setdata.email);
-    setName(setdata.name);
-  }, []);
 
   const handleSubmit = (e) => {
     if (email && name) {
@@ -27,6 +18,7 @@ const Letterform = ({
       setLetterIsOpen(false);
       //change subscribe button message
       setIsSubscribed(true);
+      localStorage.setItem("subscribed", JSON.stringify(true));
     }
     return;
   };
@@ -72,7 +64,7 @@ const Letterform = ({
         <div className="justify-center items-center flex mt-3">
           <form className="flex flex-wrap flex-row">
             <input
-              className="sm:p-2 text-sm  outline-none  my-2 mx-2 w-full sm:w-3/4"
+              className="sm:p-2 text-sm px-3 rounded border-none outline-none  my-2 mx-2 w-full sm:w-3/4"
               id="text"
               type="text"
               aria-label="your name"
@@ -82,7 +74,7 @@ const Letterform = ({
               required
             />
             <input
-              className="sm:p-2 text-sm  outline-none mx-1 my-2 mx-2 w-full sm:w-3/4"
+              className="sm:p-2 text-sm px-2 rounded border-none outline-none mx-1 my-2 mx-2 w-full sm:w-3/4"
               id="email"
               type="email"
               aria-label="email address"

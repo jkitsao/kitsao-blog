@@ -37,5 +37,5 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - [x] Add SEO Component
 - [x] Add Dynamic Site Metadata
 
-## ☁ Deploy
+
 
