@@ -10,9 +10,8 @@ image: https://images.unsplash.com/photo-1586772002345-339f8042a777?ixid=MXwxMjA
 
 ![Github pages image](https://res.cloudinary.com/practicaldev/image/fetch/s--kbmHhtVd--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/a12tj8n6facp0kt0xb0n.jpeg)
 
-GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website. You can see examples of GitHub Pages sites in theGitHub Pages examples collection.
-You can host your site on GitHub's github.io domain or your own custom domain. For more information, see "Using a custom domain with GitHub Pages."
-To get started, see "Creating a GitHub Pages site."Organization owners can disable the publication of GitHub Pages sites from the organization's repositories. For more information, see "Disabling publication of GitHub Pages sites for your organization."
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website. You can see examples of GitHub Pages sites in the [GitHubPages examples](https://github.com/collections/github-pages-examples) collection.
+You can host your site on GitHub's [github.io](http://github.io/) domain or your own custom domain. For more information, see [Using a custom domain with GitHub Pages](https://docs.github.com/en/free-pro-team@latest/articles/using-a-custom-domain-with-github-pages) To get started, see [Creating a GitHub Pages site](https://docs.github.com/en/free-pro-team@latest/articles/creating-a-github-pages-site) Organization owners can disable the publication of GitHub Pages sites from the organization's repositories. For more information, see [Disabling publication of GitHub Pages sites for your organization](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/disabling-publication-of-github-pages-sites-for-your-organization)
 
 ## [Surge-sh](https://surge.sh)
 
