@@ -55,7 +55,7 @@ export default function Post({ post, frontmatter }) {
             </span>
           ) : null}
         </header>
-        {frontmatter.image && (
+        {/* {frontmatter.image && (
           <div className="sm:w-full">
             <Image
               alt={frontmatter.title}
@@ -64,7 +64,7 @@ export default function Post({ post, frontmatter }) {
               className="w-full h-48  object-cover sm:h-84 sm:object-top rounded"
             />
           </div>
-        )}
+        )} */}
         <div className="lg:w-5/6 ">
           <ReactMarkdown
             escapeHtml={false}
