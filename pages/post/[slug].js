@@ -41,8 +41,8 @@ export default function Post({ post, frontmatter }) {
       />
 
       <article>
-        <header className="mt-4">
-          <h1 className="my-3 ml-1 text-2xl sm:text-4xl text-gray-900  leading-tight font-medium">
+        <header className="mt-6 lg:mt-16">
+          <h1 className="my-3 ml-1 text-2xl sm:text-4xl text-gray-800  leading-tight font-semibold">
             {frontmatter.title}
           </h1>
           <p className="text-sm font-semibold text-green-800 inline-block">
@@ -50,25 +50,28 @@ export default function Post({ post, frontmatter }) {
           </p>
           {/* if author is present show else dont show  */}
           {frontmatter.author ? (
-            <span className="text-sm lg:text-lg text-red-800 font-bold mx-2">
+            <span className="text-sm  text-gray-700 font-bold mx-2">
               by {frontmatter.author}
             </span>
           ) : null}
         </header>
-        <div className="sm:w-full">
-          <Image
-            alt={frontmatter.title}
-            src={frontmatter.image}
-            // previewSrc={require(`${frontmatter.image}?lqip`)}
-            className="w-full h-48  object-cover sm:h-84 sm:object-top rounded"
+        {frontmatter.image && (
+          <div className="sm:w-full">
+            <Image
+              alt={frontmatter.title}
+              src={frontmatter.image}
+              // previewSrc={require(`${frontmatter.image}?lqip`)}
+              className="w-full h-48  object-cover sm:h-84 sm:object-top rounded"
+            />
+          </div>
+        )}
+        <div className="lg:w-5/6 ">
+          <ReactMarkdown
+            escapeHtml={false}
+            source={post.content}
+            renderers={{ code: CodeBlock, image: MarkdownImage }}
           />
         </div>
-
-        <ReactMarkdown
-          escapeHtml={false}
-          source={post.content}
-          renderers={{ code: CodeBlock, image: MarkdownImage }}
-        />
       </article>
     </Layout>
   );
