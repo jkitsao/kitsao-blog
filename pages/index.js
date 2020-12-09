@@ -24,13 +24,13 @@ export default function Home({ posts }) {
               alt={title}
               src={`${image}?lqip`}
               // previewSrc={`${image}?lqip`}
-              className="w-full h-48 sm:w-64 sm:h-56 object-cover mb-1"
+              className="w-full h-48 sm:w-56 object-cover sm:rounded-lg mb-1"
             />
             <Link href={"/post/[slug]"} as={`/post/${slug}`}>
-              <div className="ml-3 sm:px-10  w-full sm:w-3/4 sm:pt-2">
+              <div className="ml-3 lg:ml-2  sm:px-10  w-full sm:w-3/4 sm:pt-2">
                 <header>
                   <h3 className="mb-1 mt-0">
-                    <a className="text-xl lg:text-2xl font-semibold text-teal-900 no-underline">
+                    <a className="text-lg lg:text-2xl font-semibold text-teal-900 no-underline">
                       {title}
                     </a>
                   </h3>
