@@ -12,7 +12,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
-
+import * as gtag from "../lib/gtag";
 library.add(faBars, faUser, faTwitter, faFacebook);
 //exporting the _app component
 <link
@@ -25,6 +25,10 @@ export default function MyApp({ Component, pageProps }) {
   Router.events.on("routeChangeStart", () => NProgress.start());
   Router.events.on("routeChangeComplete", () => NProgress.done());
   Router.events.on("routeChangeError", () => NProgress.done());
+  // Track pageviews when changing routes
+  process.env.NODE_ENV == "production" &&
+    Router.events.on("routeChangeComplete", (url) => gtag.pageview(url));
+  //render application
   return (
     <div className="">
       <Navbar />

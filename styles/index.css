@@ -9,4 +9,14 @@ html{
 }
 .logo-text{
     font-family: 'Galada', cursive;
+    /* text-transform: uppercase; */
+    background: linear-gradient(to right, #E63500 0%, #FFC316 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+a{
+    color: inherit;
+}
+h2{
+    font-size:1.2rem;
 }

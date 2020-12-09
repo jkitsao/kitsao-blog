@@ -42,10 +42,10 @@ export default function Post({ post, frontmatter }) {
 
       <article>
         <header className="mt-4">
-          <h1 className="my-3 ml-1 text-2xl sm:text-4xl text-gray-900  lg:text-5xl leading-tight font-medium">
+          <h1 className="my-3 ml-1 text-2xl sm:text-4xl text-gray-900  leading-tight font-medium">
             {frontmatter.title}
           </h1>
-          <p className="text-sm lg:text-lg text-green-800 inline-block">
+          <p className="text-sm font-semibold text-green-800 inline-block">
             {frontmatter.date}
           </p>
           {/* if author is present show else dont show  */}
@@ -60,7 +60,7 @@ export default function Post({ post, frontmatter }) {
             alt={frontmatter.title}
             src={frontmatter.image}
             // previewSrc={require(`${frontmatter.image}?lqip`)}
-            className="w-full h-48 object-contain object-cover sm:h-84 sm:object-top rounded"
+            className="w-full h-48  object-cover sm:h-84 sm:object-top rounded"
           />
         </div>
 

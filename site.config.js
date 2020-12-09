@@ -1,11 +1,11 @@
 export default {
   siteMetadata: {
-    title: "mydevpal",
+    title: "tipjarr",
     author: {
       name: "Jackson kitsao",
       summary: "a self taught web developer from Nairobi, Kenya ",
     },
-    description: "A web dev guide blog site",
+    description: "All things web development",
     siteUrl: "",
     language: "en-US",
     social: {

@@ -18,7 +18,7 @@ export default function Home({ posts }) {
           <article
             key={slug + title + date}
             className="bg-white shadow-lg cursor-pointer sm:flex my-2 p-1 pb-3 sm:pb-2 sm:p-2 mb-3 hover:shadow-2xl"
-            style={{ borderBottom: "2px solid green" }}
+            // style={{ borderBottom: "2px solid green" }}
           >
             <Image
               alt={title}
@@ -30,7 +30,7 @@ export default function Home({ posts }) {
               <div className="ml-3 sm:px-10  w-full sm:w-3/4 sm:pt-2">
                 <header>
                   <h3 className="mb-1 mt-0">
-                    <a className="text-xl lg:text-2xl font-medium text-orange-700 no-underline">
+                    <a className="text-xl lg:text-2xl font-semibold text-teal-900 no-underline">
                       {title}
                     </a>
                   </h3>
@@ -46,9 +46,9 @@ export default function Home({ posts }) {
                 <section>
                   <p className="mb-4 text-indigo-900 text-sm">{description}</p>
                 </section>
-                <button className="bg-green-700 cursor-pointer hover:bg-green-500 sm:block text-white px-2 border-none outline-none shadow-lg text-sm">
+                {/* <button className="bg-green-700 cursor-pointer hover:bg-green-500 sm:block text-white px-2 border-none outline-none shadow-lg text-sm">
                   read more
-                </button>
+                </button> */}
               </div>
             </Link>
           </article>

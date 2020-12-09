@@ -34,8 +34,8 @@ export default function Layout({ children }, props) {
       <main className="my-2 ">{children}</main>
       <footer className="text-xs flex w-full justify-center align-middle">
         <div>
-          © {new Date().getFullYear()}, Built by{" "}
-          <a target="_blank" href="https://github.com/jkitsao">
+          © {new Date().getFullYear()},{" "}
+          <a target="_blank" href="https://twitter.com/Jacksonkitsao5">
             Jackson kitsao
           </a>{" "}
           &#128293;

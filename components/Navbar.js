@@ -7,12 +7,14 @@ export default function Navbar() {
       {/* <span className="cursor-pointer">
         <img src="/image.svg" className="h-8 sm:h-10 inline-block m-0" />
       </span> */}
-      <span
-        className="logo-text text-white text-xl sm:text-3xl text-indigo-500 font-hairline"
-        // style={{ fontFamily: "Galada', cursive" }}
-      >
-        mydevpal.com
-      </span>
+      <Link href="/">
+        <span
+          className="logo-text cursor-pointer text-xl sm:text-3xl"
+          // style={{ fontFamily: "Galada', cursive" }}
+        >
+          tipjarr.net
+        </span>
+      </Link>
     </nav>
   );
 }
