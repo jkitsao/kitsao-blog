@@ -13,7 +13,25 @@ export default class MyDocument extends Document {
       <Html lang={siteMetadata.language}>
         <Head>
           <TypographyStyle typography={typography} />
-          <link rel="shortcut icon" href="/image.svg" />
+          <link rel="shortcut icon" href="/profile.png" />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-Z61NCH1KS3`}
+          />
+          {process.env.NODE_ENV == "production" && (
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Z61NCH1KS3', {
+              page_path: window.location.pathname,
+            });
+          `,
+              }}
+            />
+          )}
         </Head>
         <body>
           <Main />

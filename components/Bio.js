@@ -12,11 +12,9 @@ export default function Bio() {
         previewSrc={require("../content/assets/profile.png")}
         alt="Profile"
       /> */}
-      <div className="">
-        <Lettertoggler />
-      </div>
+      <div className="">{/* <Lettertoggler /> */}</div>
       <div>
-        <p className="mb-1 my-2 text-sm sm:text-lg sm:text-lg">
+        <p className="mb-1 my-2 text-sm  sm:text-lg">
           Hello there and welcome to {title} a Blog by <b>{author.name}</b>{" "}
           {author.summary}{" "}
           <a href={`https://twitter.com/${social.twitter}`}>
