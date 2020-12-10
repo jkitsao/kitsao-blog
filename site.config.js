@@ -3,7 +3,7 @@ export default {
     title: "tipjarr",
     author: {
       name: "Jackson kitsao",
-      summary: "a self taught web developer from Nairobi, Kenya ",
+      summary: "self taught web developer from Nairobi, Kenya ",
     },
     description: "All things web development",
     siteUrl: "",
