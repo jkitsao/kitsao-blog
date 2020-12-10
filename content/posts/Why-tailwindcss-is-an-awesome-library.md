@@ -1,6 +1,6 @@
 ---
 title: Why Tailwindcss is an awesome css library
-description: we take a look at Tailwindcss A utility-first CSS framework, and why you should start using it.
+description: We take a look at Tailwindcss a utility-first CSS framework, and what makes it special compared to other frameworks
 date: 2020-12-10T11:00:00.000Z
 author: Jackson kitsao
 image: https://jefrydco.id/_nuxt/img/106442b-1080.jpg
@@ -10,8 +10,8 @@ image: https://jefrydco.id/_nuxt/img/106442b-1080.jpg
 
 About 5 months ago i was working on a side project with **react/nextjs**
 i was familiar with bootstrap so i decided to use it a my main css library, but as the project grew i found myself having to
-dig into the bootstrap files to customize some small details, i also had a separate css file with lots of **!important** statements to override the default bootstrap styling.
-I decided i needed a better library one that was easy to customize and implement thats when i found out about tailwindcss
+dig into the bootstrap files to customize small details, i also had a separate css files with lots of **!important** statements to override the default bootstrap styling.
+I decided i needed a better library one that was easy to customize and implement, I heard about tailwindcss
 and decided to give it a try ....*spoiler Alert: that was one of my best decisions*
 
 ## What is Tailwindcss ?
@@ -28,13 +28,30 @@ But basically a utility-first CSS framework is packed with classes like flex, pt
 
 Lets look at an example :
 
-### **suppose you wanted to  control how flex and grid items are positioned along a container's main axis.**
+## **#suppose you wanted to  control how flex and grid items are positioned along a container's main axis.**
 
 In css this would be achieved by using the Justify content property
 
+```css
+div {
+  display: flex;
+  justify-content: start;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+div {
+  display: flex;
+  justify-content: end;
+}
+```
+
+## Using Tailwindcss utility classes
+
 ### **#Start**
 
-In Tailwindcss we would add the  **justify-start** property to the parent element to position items against the start of the container's main axis:
+Using Tailwindcss we would add the  **justify-start** property to the parent element to position items against the start of the container's main axis:
 
 ```Html
 <div class="flex justify-start ...">
@@ -47,7 +64,7 @@ In Tailwindcss we would add the  **justify-start** property to the parent elemen
 
 ### **#Center**
 
-In Tailwindcss we would add the  **justify-center** property  to parent element to position items to the center of the container's main axis:
+Using Tailwindcss we would add the  **justify-center** property  to parent element to position items to the center of the container's main axis:
 
 ```Html
 <div class="flex justify-center ...">
@@ -60,7 +77,7 @@ In Tailwindcss we would add the  **justify-center** property  to parent element 
 
 ### **#End**
 
-In Tailwindcss we would add the **justify-end** property to the parent element to position items against the end of the container's main axis:
+Using Tailwindcss we would add the **justify-end** property to the parent element to position items against the end of the container's main axis:
 
 ```Html
 <div class="flex justify-end ...">
@@ -80,7 +97,7 @@ maintaining a utility-first CSS project turns out to be a lot easier than mainta
 
 Tailwind also automatically removes all unused CSS when building for production, which means your final CSS bundle is the smallest it could possibly be. In fact, most Tailwind projects ship less than 10KB of CSS to the client hence increased perfomance.
 
-### #MOBILE-FIRST
+### - MOBILE-FIRST
 
 Mobile-first design is a design philosophy that aims to create better experiences for users by starting the design process from the smallest of screens: mobile. Designing and prototyping your websites for mobile devices first helps you ensure that your users' experience is seamless on any device
 
@@ -135,7 +152,7 @@ module.exports = {
 
 [Learn more here ->](https://tailwindcss.com/docs/responsive-design)
 
-### #COMPONENT-DRIVEN ARCHITECTURE
+### - COMPONENT-DRIVEN ARCHITECTURE
 
 Tailwind encourages a utility-first workflow, where designs are initially implemented using only utility classes to avoid premature abstraction.
 
@@ -179,9 +196,9 @@ To avoid unintended specificity issues, we recommend wrapping your custom compon
 
 [Learn more ->](https://tailwindcss.com/docs/extracting-components)
 
-### #DARK MODE SUPPORT
+### - DARK MODE SUPPORT
 
-Now with Dark Mode.
+<!-- Now with Dark Mode. -->
 
 "Dark Mode is a supplemental mode that can be used to display mostly dark surfaces on the UI. The design reduces the light emitted by device screens while maintaining the minimum color contrast ratios required for readability. The advantages of Dark Mode are, it enhances visual ergonomics by reducing eye strain, facilitating screens to adjust according to current light conditions and providing comfort of use at night or in dark environments." [what is Dark mode ?](https://www.techaheadcorp.com/blog/dark-mode/)
 
@@ -209,7 +226,7 @@ module.exports = {
 
 [Learn more  ->](https://tailwindcss.com/docs/dark-mode)
 
-### #Eazy CUSTOMIZATION
+### - EAZY CUSTOMIZATION
 
 Because Tailwind is a framework for building bespoke user interfaces, it has been designed from the ground up with customization in mind.
 
