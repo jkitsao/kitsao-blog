@@ -10,7 +10,7 @@ image: https://jefrydco.id/_nuxt/img/106442b-1080.jpg
 
 About 5 months ago i was working on a side project with **react/nextjs**
 i was familiar with bootstrap so i decided to use it a my main css library, but as the project grew i found myself having to
-dig into the bootstrap files to customize small details, i also had a separate css files with lots of **!important** statements to override the default bootstrap styling.
+dig into the bootstrap files to customize tiny details, i also had a separate css files with lots of **!important** statements to override the default bootstrap styling.
 I decided i needed a better library one that was easy to customize and implement, I heard about tailwindcss
 and decided to give it a try ....*spoiler Alert: that was one of my best decisions*
 
