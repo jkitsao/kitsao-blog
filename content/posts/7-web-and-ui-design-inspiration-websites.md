@@ -22,15 +22,15 @@ Below are some of the  websites that might inspire your web/UI design eye as a w
 * illustration,
 * photography
   
-Creative professionals such as illustrators, web designers, graphic designers and icon artists use Dribbble to promote their work and meet colleagues. As a web developer or UI designer dribbble is a great place to find inspiration for your next design Dribbbble also offers amazing filter tools you can filter designs by color, Tags, Timeframe, and many other attributes Dribbble also offers a pro subscription where you can get to email the designer of a particular shot Overall its a neat platform to get inspired
+Creative professionals such as illustrators, web designers, graphic designers and icon artists use Dribbble to promote their work and meet colleagues. As a web developer or UI designer dribbble is a great place to find inspiration for your next design. Dribbbble also offers amazing filter tools you can filter designs by color, Tags, Timeframe, and many other attributes Dribbble also has a pro subscription where you  get to email the designer of a particular shot you like. Overall its a neat platform to get inspiration from.
 
 ## [Behance](https://dribbble.com/)
 
 ![Behance image](https://mir-s3-cdn-cf.behance.net/project_modules/1400/165af265485593.5af5bf8eae575.jpg)
 
 Just like Dribbble **Behance** is also a social network owned by Adobe for creatives of just about every field and discipline. It's a place to connect, inspire, and get hired—a portfolio site that's so much more. 
-As a developer, you can utilize Behance tools to search for design and get inspired
-Behance also offers great filter tools like color, location, Layouts, and more 
+As a developer, you can utilize Behance advanced  tools to search for design and get inspired
+Behance  offers great filter tools like color, location, Layouts, and more...
 
 ## [Awwwards](https://www.awwwards.com/)
 
@@ -91,4 +91,4 @@ the world
 ## Conclusion
 
 Finding design inspiration as a developer can be challenging, but hopefully the resources above might
-come in handy whenever you face a design block. Good luck
+come in handy whenever you face a design block. Happy hacking .
