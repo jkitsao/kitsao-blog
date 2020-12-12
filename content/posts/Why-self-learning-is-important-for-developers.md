@@ -1,6 +1,6 @@
 ---
-title: Why and how self learning is important for developers
-description: We take a look at the Context api in react which  provides a way to pass data through the component tree without having to pass props down manually at every level.
+title:  Why self-learning is important as a developer
+description: As a developer or an aspiring one you will quickly find out that you constantly need to learn new skills to keep up with the trend, also gain more knowledge that you can use as an edge for future opportunities.
 date: 2020-12-12T11:00:00.000Z
 author: Jackson kitsao
 image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
@@ -9,13 +9,17 @@ image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixid=MXwxMjA
 
 ## Let's start by defining what self learning is in General
 
-“a process by which individuals take the initiative, with or without the assistance of others, in diagnosing their learning needs, formulating learning goals, identifying human and material resources for learning, and evaluating learning outcomes”. [what is self learning](https://medium.com/wondr-blog/self-learning-why-its-essential-for-us-in-the-21st-century-9e9729abc4b8)
+In broad context “Self study/learning is a process by which individuals take the initiative, with or without the assistance of others, in diagnosing their learning needs, formulating learning goals, identifying human and material resources for learning, and evaluating learning outcomes”. [what is self learning](https://medium.com/wondr-blog/self-learning-why-its-essential-for-us-in-the-21st-century-9e9729abc4b8)
 
 In plain terms Self-studying is a learning method where you get to direct your own studying without direct supervision
 
-## Why its important
+## Why self learning is  important
 
-Being a self taught developer i highly recommend the self learning method for many reasons why: 
+As a developer or an aspiring one you will quickly find out that you constantly need to learn new skills and keep up with the trend, also gain more knowledge that you can use as an edge for future opportunities. Learning  also helps you as a developer to understand deeply some of the aspects of languages and technologies you have been using for years and that you hadn't realized yet.
+
+As a developer whose gone through both the selft taught method, college and recently bootcamp i higly suggest taking the self learning path 
+
+lets have a look at why thats important
 
 * **It is a Stress-Free Process**
   
@@ -35,15 +39,26 @@ Being a self taught developer i highly recommend the self learning method for ma
   
     From my expirience i found out that teaching yourself a certain concept can be really fun  because  you have a clear purpose of why you are learning and the information gained is often relevant, making it meaningful. Additionally, you are inclined to search deeper information about a topic since you are not just learning for the sake of learning. Learning now has a purpose and is enjoyable, leading to good and meaningful results.
 
-## Self Learning is not often easy
+## Self Learning can be difficult and challenging at times
 
- Self-learning requires lots of discipline and  can be challenging at times. If you are the person who gets distracted easily you may have a hard time teaching yourself but i believe with the right determination and discipline almost anyone can Learn by themselves
- You have to be ready to learn and take on challenges by yourself. 
+![exhausted person](https://images.unsplash.com/photo-1605827211207-194dc6ec319b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1563&q=80)
+
+In my expirience teaching yourself anything can be difficult,challenging, draining and quite a lonely
+
+ Self-learning requires lots of discipline and  can be challenging at times. If you are the person who gets distracted easily you may have a hard time teaching yourself, but i believe with the right determination and discipline almost anyone can Learn anything by themselves
+ You have to be ready to learn and take on challenges by yourself.
 
  Dont forget to always keep yourself motivated with the right reason of why you started Learning in the first place.  When your learning make your goals clear, you will be able to evaluate your progress and whether you have gained any knowledge and this sets the stage for a fruitful learning process.
  The beauty of self-driven learning is that you are not limited to a specific way of learning. The availability of different tools also gives you the chance to learn the same subject from different angles, which makes it easier to grasp the main subject matter.
 
-You can find resources here : 
+If you are just starting out You can find resources here that will help you learn :
 
 "When you’re just getting started exploring the world of tech, having the right programming tools for beginners makes a world of difference. You want coding resources that make it easy and fun to learn the skills you want—not dry, incomprehensible teaching that you can barely wrap your head around."
  [Top Coding Resources and Tools for Beginners (+ Beyond)](https://learntocodewith.me/resources/coding-tools/)
+
+## Conclusion
+
+If you are a developer or you are in the process of becoming one, you'll  certainly  notice that you almost always have to 
+update or refine your skills to keep up with the changes developing the ability to teach yourself  new skills without direct supervision at your own pace 
+with your own methods of choosing
+I believe is a key advantage to succeed in this field in the long run.
