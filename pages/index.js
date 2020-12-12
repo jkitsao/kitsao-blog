@@ -17,7 +17,7 @@ export default function Home({ posts }) {
         }) => (
           <article
             key={slug + title + date}
-            className="bg-white shadow-lg cursor-pointer sm:flex my-2 p-1 pb-3 sm:pb-2 sm:p-2 mb-3 hover:shadow-2xl"
+            className="bg-white shadow-lg cursor-pointer sm:flex my-2 p-1 pb-3 sm:pb-2 overflow-x-hidden sm:p-2 mb-3 hover:shadow-2xl"
             // style={{ borderBottom: "2px solid green" }}
           >
             <Image
