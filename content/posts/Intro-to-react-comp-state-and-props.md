@@ -1,6 +1,6 @@
 ---
 title: Introduction to Reactjs ...components, state and props
-description: we take a look at the building blocks of react components, state and props
+description: we take a look at the building blocks of react. Components,JSX, state and props
 date: 2020-12-16T11:00:00.000Z
 author: Jackson kitsao
 image: https://images.unsplash.com/photo-1587654780291-39c9404d746b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
