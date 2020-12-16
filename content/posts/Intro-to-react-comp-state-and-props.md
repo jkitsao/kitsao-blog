@@ -1,7 +1,7 @@
 ---
 title: Introduction to Reactjs ...components, state and props
 description: we take a look at the building blocks of react components, state and props
-date: 2020-12-14T11:00:00.000Z
+date: 2020-12-16T11:00:00.000Z
 author: Jackson kitsao
 image: https://images.unsplash.com/photo-1587654780291-39c9404d746b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 ---
@@ -72,7 +72,7 @@ In the world of React, there are two ways of writing a component. **Class based 
 ### What is jsx
 
 JSX is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
-JSX produces React “elements”. 
+JSX produces React “elements”.
 
 Example :
 
@@ -82,7 +82,7 @@ const myelement = <h1>I Love JSX!</h1>;
 ReactDOM.render(myelement, document.getElementById('root'));
 ```
 
-## Why use JSX with Reactjs?
+### Why use JSX with Reactjs?
 
 * It is faster than regular JavaScript because it performs optimization while translating the code to JavaScript.
 * Instead of separating technologies by putting markup and logic in separate files, React uses components that contain both.
