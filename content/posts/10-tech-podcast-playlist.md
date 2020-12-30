@@ -1,6 +1,6 @@
 ---
 title: 10 + interesting tech podcasts
-description: we take a look at Chakra UI, a simple, modular and accessible component library
+description: we take a look 10+ interesting tech related podcasts i'd recomend for your next playlist 
 date: 2020-12-31T11:00:00.000Z
 author: Jackson kitsao
 image: https://images.unsplash.com/photo-1421757350652-9f65a35effc7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80
