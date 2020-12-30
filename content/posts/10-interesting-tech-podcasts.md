@@ -1,6 +1,6 @@
 ---
-title: 10 + interesting tech podcasts
-description: we take a look 10+ interesting tech related podcasts i'd recomend for your next playlist 
+title: 10 interesting tech podcasts
+description: we take a look 10 interesting tech related podcasts i'd recomend for your next playlist 
 date: 2020-12-31T11:00:00.000Z
 author: Jackson kitsao
 image: https://images.unsplash.com/photo-1421757350652-9f65a35effc7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80
@@ -50,7 +50,7 @@ If you are looking to create an online business and generate revenue directly fr
 
 ![codestory image](https://codestory.co/wp-content/uploads/2020/04/twitter_header.png)
 
-This is similar to Indihackers but focuses on technical founders and their stories from code to profiteability
+This is similar to Indihackers but focuses on technical founders and their stories from code to profitability
 
 Founders talk about Their tech. Their products. Their stories. In a tech startup, how do you get from an idea on the back of a napkin to a fully functioning product? Code Story is a podcast featuring tech leaders, reflecting the roads they travelled and the products they created.
 
@@ -66,7 +66,7 @@ Explore true stories of the dark side of the Internet with host Jack Rhysider as
 
 ## Codepen radio
 
-![Codepen radio image](https://darknetdiaries.com/imgs/darknet-diaries-sm.jpg)
+![Codepen radio image](https://miro.medium.com/max/800/1*Otx7CXIY9eh0Sxlp54olxA.png)
 
 From the team behind [codepen](https://codepen.io) an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.
 
