@@ -9,7 +9,7 @@ image: https://i.insider.com/5e990b018427e9308029c328?width=600&format=jpeg&auto
 ![hosting on vercel](https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png)
 
 
-As developers projects are very important wheather your trying to learn a new tech or framework
+As developers projects are very important whether you are trying to learn a new tech or framework
 or just building your portfolio, projects are key to improving your skills.
 <!-- people need to see your projects expose your projects to everyone 
 this is where hosting providers come in and vercel is great for this  -->
@@ -26,7 +26,7 @@ First, you'll need to create a Vercel account. If you don't already have one, yo
 
 ![sign up image](https://res.cloudinary.com/whey/image/upload/v1609587607/tipjarr/vercel_signup_y9wdsz.png)
 
-<!-- After creating your account, make a note of your App ID. You'll store it later as an environment variable for your project. -->
+After creating your account, you will be ridirected to your dashboard
 
 ## Deployment process with Git intergration
 
@@ -41,7 +41,11 @@ Vercel allows for automatic deployments on every branch push and merges onto the
 ## Git repo
 Setting up your GitHub, GitLab, or Bitbucket repository on Vercel is only a matter of clicking the "New Project" button on the top right of your dashboard and following the steps.
 
+![vercel's new project tab](https://res.cloudinary.com/whey/image/upload/v1609589491/tipjarr/vercel_projects_tab_xwrqnw.png)
+
 After clicking it, you'll be presented with a list of Git repositories that the Git account you've signed up with has write access to.
+
+![vercel's Git repo gist](https://res.cloudinary.com/whey/image/upload/v1609590427/tipjarr/vercel_repos_voq0jg.png)
 
 When you create a new Project from a Git repository on Vercel, the Production Branch will be selected in the following order:
 
@@ -79,7 +83,7 @@ NOTE: If you are using Next.js, use the /pages/api directory instead.
 
 ## Pricing (Hobby plan)
 
-Vercel offers Hobby plan plan that is more than enough for your projects
+Vercel offers a Hobby plan that is more than enough for your personal projects
 <!-- Hobby plans are limited to personal, -->
 
 ![pricing image](https://res.cloudinary.com/whey/image/upload/v1609587952/tipjarr/vercel_pricing_v2ofpc.png)
