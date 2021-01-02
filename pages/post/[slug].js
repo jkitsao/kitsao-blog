@@ -27,7 +27,7 @@ const MarkdownImage = ({ alt, src }) => (
     alt={alt}
     src={`${src}`}
     // previewSrc={require(`../../content/assets/${src}?lqip`)}
-    className="w-full h-48 lg:h-84 object-cover my-2 block shadow-lg"
+    className="w-full  object-cover my-2 block shadow-lg"
   />
 );
 

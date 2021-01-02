@@ -16,4 +16,21 @@ How to use -
 
 ## FaunaDB
 
+
 ## intro to react ...components,state and props
+
+## What is Nextjs used for?
+
+## Hosting on vercel
+
+syntax fm ideas
+
+## Should you support IE11 ?
+
+## Things that make your site slow ?
+
+## How do you build an api from scratch ?
+
+## State in react ?
+
+## Blitz.js
