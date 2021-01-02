@@ -110,3 +110,7 @@ Deploy from
 * Command-Line Interface
 
 find out more about  pricing [here](https://vercel.com/pricing)
+
+## Conclusion 
+Deploying to vercel is really easy just connect your Github repo to vercel 
+and everything else is done automatically ....Happy hacking
