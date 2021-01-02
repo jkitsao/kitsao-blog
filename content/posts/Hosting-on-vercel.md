@@ -88,7 +88,7 @@ Vercel offers a Hobby plan that is more than enough for your personal projects
 
 ![pricing image](https://res.cloudinary.com/whey/image/upload/v1609587952/tipjarr/vercel_pricing_v2ofpc.png)
 
-the free plan includes
+**The free plan includes**
 
 * HTTPS-enabled Custom Domains
 
