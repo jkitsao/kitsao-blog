@@ -24,6 +24,7 @@ How to use -
 
 syntax fm ideas
 
+
 ## Should you support IE11 ? 25 may 2020
 
 ## Should i use react hooks ? 7 Dec 2020
@@ -45,3 +46,13 @@ Programming Throwdown
 ## Functional Programming
 
 ## 
+
+## Should you support IE11 ?
+
+## Things that make your site slow ?
+
+## How do you build an api from scratch ?
+
+## State in react ?
+
+## Blitz.js
