@@ -3,7 +3,7 @@ title: Why Tailwindcss is an awesome library
 description: We take a look at Tailwindcss a utility-first CSS framework, and what makes it special compared to other frameworks
 date: 2020-12-10T11:00:00.000Z
 author: Jackson kitsao
-image: https://jefrydco.id/_nuxt/img/106442b-1080.jpg
+image: https://res.cloudinary.com/practicaldev/image/fetch/s--JXlFx1ne--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/f30hrij5h3j7gt2klbcu.jpg
 ---
 
 ![Why Tailwindcss is an awesome library](https://images.unsplash.com/photo-1475669698648-2f144fcaaeb1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)

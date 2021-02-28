@@ -38,6 +38,7 @@ export default function Post({ post, frontmatter }) {
       <SEO
         title={frontmatter.title}
         description={frontmatter.description || post.excerpt}
+        seoImage={frontmatter.image}
       />
 
       <article>
