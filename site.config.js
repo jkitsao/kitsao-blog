@@ -5,7 +5,7 @@ export default {
       name: "Jackson kitsao",
       summary: "self taught web developer from Nairobi, Kenya ",
     },
-    description: "All things web development",
+    description: "JavaScript and Web Development Tutorials.",
     siteUrl: "",
     language: "en-US",
     social: {

@@ -8,7 +8,7 @@ import { getSortedPosts } from "utils/posts";
 export default function Home({ posts }) {
   return (
     <Layout>
-      <SEO title="All posts" />
+      <SEO title="Javascript and web development tutorials" />
 
       {posts.map(
         ({
