@@ -13,6 +13,7 @@ export default function SEO({ title, description = "", seoImage }) {
       </title>
       <meta name="description" content={metaDescription} />
       <meta property="og:type" content="website" />
+      <meta property="og:image" content={seoImage && seoImage} />
       <meta name="og:title" property="og:title" content={title} />
       <meta
         name="og:description"
