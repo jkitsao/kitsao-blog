@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+/* //text animation color variables */
+:root {
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+  /*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+}
+
 html{
     font-family: 'Raleway', sans-serif;
 }
@@ -20,3 +36,66 @@ a{
 h2{
     font-size:1.3rem;
 }
+.banner{
+    background:url('https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1629&q=80');
+    height:50vh;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 1, 15, 0.404);
+}
+
+/* text animation code */
+.text_shadow {
+ 
+    font-size: 4rem;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+
+}
+@media screen and (max-width: 992px) {
+  .text_shadow {
+ 
+    font-size: 2.5rem;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+
+}
+}
+@media screen and (max-width: 500px) {
+    .banner{
+    background:url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=926&q=80') !important;
+    height:40vh;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+  .text_shadow {
+ 
+    font-size: 1.5rem;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+
+}
+}
+
+

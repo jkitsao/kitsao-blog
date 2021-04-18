@@ -1,14 +1,16 @@
 ---
 title: Websites that offer free stock photos of all kinds for your websites and apps
-description: we take a look 10 interesting tech related podcasts i'd recomend for your next playlist 
-date: 2021-03-31T11:00:00.000Z
+description: In this article, we’ll cover a good number of useful websites that provide high quality stock images for free
+date: 2021-04-18T11:00:00.000Z
 author: Jackson kitsao
-image: https://images.unsplash.com/photo-1567419635012-22cf316d650f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80
+image: https://images.unsplash.com/photo-1605882174908-4bfbb907e3cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80
 --- 
  
-![podcast](https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?fit=crop&h=1000&mark=https%3A%2F%2Fassets.imgix.net%2F~text%3Fbg%3D80000000%26txt%3DFree%2BStock%2BPhotos%26txtalign%3Dcenter%26txtclr%3Dfff%26txtfont%3DAvenir-Heavy%26txtpad%3D20%26txtsize%3D120%26w%3D1300&markalign=center%2Cmiddle&txt=pexels.com&txtalign=center&txtclr=eeffffff&txtfont=Avenir-Heavy&txtshad=10&txtsize=60&w=1500)
+![stock images](https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?fit=crop&h=1000&mark=https%3A%2F%2Fassets.imgix.net%2F~text%3Fbg%3D80000000%26txt%3DFree%2BStock%2BPhotos%26txtalign%3Dcenter%26txtclr%3Dfff%26txtfont%3DAvenir-Heavy%26txtpad%3D20%26txtsize%3D120%26w%3D1300&markalign=center%2Cmiddle&txt=pexels.com&txtalign=center&txtclr=eeffffff&txtfont=Avenir-Heavy&txtshad=10&txtsize=60&w=1500)
 
- ## Websites that offer free stock photos of all kinds for your websites and apps
+Human beings are highly visual creatures who are able to process visual information almost instantly; 90 percent of all information that we perceive and that gets transmitted to our brains is visual. Images  create visual interest on content they help you to attract attention and to guide your visitor's line of sight and can be of great value when it comes to presenting important information
+
+In this article, we’ll cover a good number of  websites that provide high quality  images that you can use for free
 
 ## Pexels
 
