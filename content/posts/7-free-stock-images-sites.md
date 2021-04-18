@@ -1,6 +1,19 @@
-## Websites that offer free stock photos of all kinds for your websites and apps
+---
+title: Websites that offer free stock photos of all kinds for your websites and apps
+description: we take a look 10 interesting tech related podcasts i'd recomend for your next playlist 
+date: 2021-03-31T11:00:00.000Z
+author: Jackson kitsao
+image: https://images.unsplash.com/photo-1567419635012-22cf316d650f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80
+--- 
+ 
+![podcast](https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?fit=crop&h=1000&mark=https%3A%2F%2Fassets.imgix.net%2F~text%3Fbg%3D80000000%26txt%3DFree%2BStock%2BPhotos%26txtalign%3Dcenter%26txtclr%3Dfff%26txtfont%3DAvenir-Heavy%26txtpad%3D20%26txtsize%3D120%26w%3D1300&markalign=center%2Cmiddle&txt=pexels.com&txtalign=center&txtclr=eeffffff&txtfont=Avenir-Heavy&txtshad=10&txtsize=60&w=1500)
+
+ ## Websites that offer free stock photos of all kinds for your websites and apps
 
 ## Pexels
+
+![pexel image](https://www.pexels.com/assets/pexels-stock-photos-6c3d5eb0cbed47e1bdf44ff85ebd9cd4669f50b895b3c6e76a23a4fd43852099.jpg)
+
 "Pexel Perfect: This is the only stock photo/video site I've needed."
 What do you like best?
 Obviously the Creative Commons licensing is great; the selection is decent (certainly for the price, and even price notwithstanding the selection is solid overall). The inclusion of video a year or so ago was a game changer as well; the clip selection isn't mind-blowing but you can usually find something close to what you need unless you're an absolute power user or have a very specific need.
@@ -18,6 +31,8 @@ Review collected by and hosted on G2.com.
 
 ## Unsplash
 
+![unsplash image](https://mackeysaturday.com/wp-content/uploads/2018/11/Unsplash_Logo_W.jpg)
+
 The Unsplash community is fueled by contributors who offer their images freely for anyone to use, inspiring hundreds of millions of creators from 13-year-old graphic designers to multi-platinum recording artists.
 
 Unsplash is a special community, where the powerful principles of sharing and openness have taken the place of strict copyright and legal red tape. 
@@ -31,6 +46,8 @@ This is the best site for free high-resolution photos that I've seen! You guys a
 Unsplash is a website dedicated to sharing stock photography under the Unsplash license. The website claims over 207,000 contributing photographers and generates more than 17 billion photo impressions per month on their growing library of over 2 million photos. Wikipedia
 
 ## Pixabay
+
+![pixabay](https://cdn.pixabay.com/photo/2020/06/21/19/02/pixabay-5326292_960_720.png)
 
 Pixabay.com is a website for sharing photos, illustrations, vector graphics, film footage and music, exclusively under the custom Pixabay license, a modified and somewhat more restrictive version of the Creative Commons CC0 license.
 Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under Creative Commons CC0, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.
@@ -48,6 +65,9 @@ What do you dislike?
 There are millions of graphics but even we might not get what we expect. There is no matching result for so many topics. Last but not the least vector format is not available for all images.
 
 ## Picspree
+
+![picspree](https://hitenrajgor.com/wp-content/uploads/2020/04/picspree-Hiten-Rajgor.jpg)
+
 Picspree offers a wide range of quality free stock images, all available for commercial use, absolutely free of charge.
 Find thousands of free stock photos and illustrations at Picspree.
 What is Picspree?
@@ -55,6 +75,9 @@ At Picspree we have our very own community of contributors who upload and share 
 Images can be used in any project, across social media platforms and even for commercial purposes. However, it is important to be aware that depicted content in images such as trademarks, logos or brands may still be protected. In this case you may need to gain permission or consent of the depicted third party.
 
 ## stocksnap
+
+![stocksnap](https://stocksnap.io/img/stocksnap_og.png)
+
 What is Stocksnap?
 All photos uploaded to the site are released under Creative Commons - CC0 and do not require attribution. No more hassle trying to figure out whether you can use photos for commercial use and whether you need to provide attribution.
 
@@ -87,6 +110,8 @@ Aside from being able to contribute photos, creating an account on StockSnap all
 
 ## Burst
 
+![burst](https://media-exp1.licdn.com/dms/image/C4E12AQFq-RmSffpyKQ/article-cover_image-shrink_600_2000/0/1533651710107?e=1619049600&v=beta&t=TvkdsbkMUjD1LZIrMbRItnVvL2_abS3nN81LVpyvN8w)
+
 Burst is a free stock photo platform that is powered by Shopify. Our image library includes thousands of high-resolution, royalty-free images that were shot by our global community of photographers. We built Burst to provide designers, developers, bloggers and entrepreneurs with access to beautiful free stock photography. You can use our pictures for just about anything — your website, blog or online store, school projects, Instagram ads, facebook posts, desktop backgrounds, client work and more. All our photos are free for commercial use with no attribution required; you can read more about this on our license page.
 
 Are these photos free for commercial use?
@@ -103,6 +128,8 @@ Of course. We’d be honored to have you feature our free stock photos on a bill
 
 
 ## Kaboompics
+
+![kaboompics](https://createpx.com/storage/2020/07/kaboompics_logo.jpg)
 
 WHAT IS KABOOMPICS?
 A service with free stock photos that can be used for both personal and commercial projects. This website gives you an opportunity to choose from thousands of pictures without any payment, even for commercial use.

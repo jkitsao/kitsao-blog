@@ -13,7 +13,7 @@ export default function Bio() {
         alt="Profile"
       /> */}
       <div className="">{/* <Lettertoggler /> */}</div>
-      <div>
+      {/* <div>
         <p className="mb-1 my-2 text-sm  sm:text-lg">
           Html,css javascript and web development tutorials by{" "}
           <b>{author.name}</b> {author.summary}{" "}
@@ -21,7 +21,7 @@ export default function Bio() {
             Follow me on twitter
           </a>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
