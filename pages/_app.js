@@ -1,10 +1,11 @@
 import "styles/tailwind.css";
 import "styles/index.css";
 import Navbar from "../components/Navbar";
+import Banner from "../components/Banner";
 import "typeface-open-sans";
 import "typeface-merriweather";
 import Router from "next/router"; //nextjs router module
-import NProgress from "nprogress"; //nprogress module
+import NProgress from "nprogress"; //nprogress moduless
 import "nprogress/nprogress.css"; //styles of nprogress
 //adding font awesome and configurations to load appropriate css first
 import { config, library } from "@fortawesome/fontawesome-svg-core";
@@ -13,6 +14,7 @@ config.autoAddCss = false;
 import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import * as gtag from "../lib/gtag";
+import { useRouter } from "next/router";
 library.add(faBars, faUser, faTwitter, faFacebook);
 //exporting the _app component
 <link
@@ -29,9 +31,13 @@ export default function MyApp({ Component, pageProps }) {
   process.env.NODE_ENV == "production" &&
     Router.events.on("routeChangeComplete", (url) => gtag.pageview(url));
   //render application
+  const { pathname } = useRouter();
+
+  const isRoot = pathname === "/";
   return (
     <div className="">
       <Navbar />
+      {isRoot && <Banner />}
       <Component {...pageProps} />;
     </div>
   );
