@@ -35,16 +35,17 @@ Review collected by and hosted on G2.com.
 
 ![unsplash image](https://mackeysaturday.com/wp-content/uploads/2018/11/Unsplash_Logo_W.jpg)
 
-Unsplash is a website dedicated to sharing stock photography under the Unsplash license. The website claims over 207,000 contributing photographers and generates more than 17 billion photo impressions per month on their growing library of over 2 million photos. Wikipedia
+The Unsplash community is fueled by contributors who offer their images freely for anyone to use, inspiring hundreds of millions of creators from 13-year-old graphic designers to multi-platinum recording artists.
 
- 
+Unsplash is a special community, where the powerful principles of sharing and openness have taken the place of strict copyright and legal red tape. 
+
+The web was meant to connect, inform, and inspire us in unprecedented ways. The Unsplash community embodies this philosophy fully. Unsplash has become a place where the impact of our connected world is on full display. Instead of images being hoarded and shut down, images on Unsplash are fuel for creativity.
+
+At Unsplash, our mission is to enable everyone to create. You don’t need to know someone, or have an agent, or have a name to be great on Unsplash. We're a place where creators meet their audience. A place where individuals become a community. And a source of inspiration for millions of people from every country in the world. We’ve seen how the willingness to give a single image unlocks the creative potential that exists in us all.
+
 This is the best site for free high-resolution photos that I've seen! You guys are amazing, keep up the good work!
 
-Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use photos from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile photos from Unsplash to replicate a similar or competing service.
-
-* All photos can be downloaded and used for free
-* Commercial and non-commercial purposes
-* No permission needed (though attribution is appreciated!)
+Unsplash is a website dedicated to sharing stock photography under the Unsplash license. The website claims over 207,000 contributing photographers and generates more than 17 billion photo impressions per month on their growing library of over 2 million photos. Wikipedia
 
 ## Pixabay
 
