@@ -37,10 +37,14 @@ Review collected by and hosted on G2.com.
 
 Unsplash is a website dedicated to sharing stock photography under the Unsplash license. The website claims over 207,000 contributing photographers and generates more than 17 billion photo impressions per month on their growing library of over 2 million photos. Wikipedia
 
+<<<<<<< HEAD
 The Unsplash community is fueled by contributors who offer their images freely for anyone to use, inspiring hundreds of millions of creators from 13-year-old graphic designers to multi-platinum recording artists.
 
 Unsplash is a special community, where the powerful principles of sharing and openness have taken the place of strict copyright and legal red tape. 
 
+=======
+ 
+>>>>>>> 2cc2f53cecfaab0586c44666a921e494429e85b3
 This is the best site for free high-resolution photos that I've seen! You guys are amazing, keep up the good work!
 
 Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to download, copy, modify, distribute, perform, and use photos from Unsplash for free, including for commercial purposes, without permission from or attributing the photographer or Unsplash. This license does not include the right to compile photos from Unsplash to replicate a similar or competing service.
@@ -49,8 +53,11 @@ Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to
 * Commercial and non-commercial purposes
 * No permission needed (though attribution is appreciated!)
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2cc2f53cecfaab0586c44666a921e494429e85b3
 ## Pixabay
 
 ![pixabay](https://cdn.pixabay.com/photo/2020/06/21/19/02/pixabay-5326292_960_720.png)
